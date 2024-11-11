@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    apiUrl: '3-3_back.railway.internal'
+    apiUrl: 'https://33back-production.up.railway.app/'
   };
