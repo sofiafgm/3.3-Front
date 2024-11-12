@@ -10,7 +10,7 @@ import { environment } from '../../environments/environment';
 })
 export class MovieService {
 
-  private apiUrl = `${environment.apiUrl}/api/movies`;
+  private apiUrl = `${environment.apiUrl}api/movies`;
 
   constructor(private http: HttpClient, private router: Router) {}
 
